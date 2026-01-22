@@ -9,7 +9,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-784, 2320],
+      "position": [
+        -784,
+        2320
+      ],
       "id": "f8f24ea3-b0a1-4168-8c28-a1e78872d867",
       "name": "Sticky Note"
     },
@@ -22,7 +25,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-80, 2048],
+      "position": [
+        -80,
+        2048
+      ],
       "id": "78ca8d31-9f26-4111-a0cb-3b27c552fc5f",
       "name": "Sticky Note1"
     },
@@ -34,7 +40,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [1312, 2480],
+      "position": [
+        1312,
+        2480
+      ],
       "id": "79754d40-638d-45ba-a713-0b9e14524a2e",
       "name": "Sticky Note2"
     },
@@ -46,7 +55,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [1312, 2800],
+      "position": [
+        1312,
+        2800
+      ],
       "id": "a0791a62-067d-46cb-9e03-b719a6e36735",
       "name": "Sticky Note3"
     },
@@ -58,7 +70,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [1312, 2064],
+      "position": [
+        1312,
+        2064
+      ],
       "id": "53a37b3e-a8e3-4afb-95ed-4d57ade37e25",
       "name": "Sticky Note4"
     },
@@ -71,7 +86,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [2144, 2400],
+      "position": [
+        2144,
+        2400
+      ],
       "id": "6b3c51ac-ca2b-46b4-9ee6-8410dfc83d60",
       "name": "Sticky Note5"
     },
@@ -84,7 +102,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [4560, 3024],
+      "position": [
+        4560,
+        3024
+      ],
       "id": "959dc612-53aa-4b92-a639-312c37c46efe",
       "name": "Sticky Note7"
     },
@@ -96,10 +117,13 @@
       },
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2.1,
-      "position": [-736, 2464],
+      "position": [
+        -736,
+        2464
+      ],
       "id": "e8f72288-f240-47a3-993b-6d53a8e3533f",
       "name": "Webhook",
-      "webhookId": "b5924eff-0fad-4a2b-866b-c34f7b2836dc"
+      "webhookId": "INSERIR_WEBHOOKID_AQUI"
     },
     {
       "parameters": {
@@ -111,16 +135,14 @@
       },
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
-      "position": [7296, 2784],
+      "position": [
+        7296,
+        2784
+      ],
       "id": "3c77a48b-bf28-410b-8123-5f977b2dada1",
       "name": "Enviar mensagem de falha",
       "webhookId": "52303b36-f0a0-4f7d-8b2f-df8e384742f8",
-      "credentials": {
-        "telegramApi": {
-          "id": "2ZSMLuLfYeWSHPkM",
-          "name": "Suporte-COR-Software"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -130,7 +152,10 @@
         "color": 3
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [7120, 2688],
+      "position": [
+        7120,
+        2688
+      ],
       "typeVersion": 1,
       "id": "d8e600a5-a47b-4f30-b7ce-bc77d03f9db6",
       "name": "Sticky Note12"
@@ -145,16 +170,14 @@
       },
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
-      "position": [5984, 2928],
+      "position": [
+        5984,
+        2928
+      ],
       "id": "ecf2bc5c-ea33-4fbf-bdd8-4c422b432fdf",
       "name": "mensagem de falha no agrupador",
       "webhookId": "e7d4cb18-1ed8-44a7-949e-e26c97e255d6",
-      "credentials": {
-        "telegramApi": {
-          "id": "YP6hxCmUjKOu62QV",
-          "name": "Telegram N8N"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -164,7 +187,10 @@
         "color": 3
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [5824, 2848],
+      "position": [
+        5824,
+        2848
+      ],
       "typeVersion": 1,
       "id": "f77785a0-447f-4667-bcfd-11af8fcd63d3",
       "name": "Sticky Note13"
@@ -185,7 +211,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [5968, 2368],
+      "position": [
+        5968,
+        2368
+      ],
       "id": "00b37f87-b259-49b5-ab8d-262785047200",
       "name": "formatador campo1"
     },
@@ -196,7 +225,10 @@
       },
       "type": "n8n-nodes-base.splitOut",
       "typeVersion": 1,
-      "position": [6176, 2368],
+      "position": [
+        6176,
+        2368
+      ],
       "id": "5e577c64-a967-450c-8ca6-1734235c509c",
       "name": "Split Out1"
     },
@@ -206,7 +238,10 @@
       },
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
-      "position": [6512, 2288],
+      "position": [
+        6512,
+        2288
+      ],
       "id": "164393e7-d9f6-4749-b577-e8419cd534eb",
       "name": "Loop Over Items1"
     },
@@ -217,7 +252,10 @@
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [6800, 2384],
+      "position": [
+        6800,
+        2384
+      ],
       "id": "5845146f-67c0-4399-be06-e7c0a9459baf",
       "name": "ajusta mensagem1"
     },
@@ -229,7 +267,10 @@
         "color": 4
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [6464, 2080],
+      "position": [
+        6464,
+        2080
+      ],
       "typeVersion": 1,
       "id": "987476c0-c54e-491c-9325-5455a372cca1",
       "name": "Sticky Note15"
@@ -242,7 +283,10 @@
         "color": 7
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [5424, 2080],
+      "position": [
+        5424,
+        2080
+      ],
       "typeVersion": 1,
       "id": "6ed0994c-8dfb-4361-a361-ff0e6009a8c5",
       "name": "Sticky Note16"
@@ -251,10 +295,13 @@
       "parameters": {},
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
-      "position": [7376, 2384],
+      "position": [
+        7376,
+        2384
+      ],
       "id": "b50ddb73-11bf-4c72-8587-fbbaeafb279f",
       "name": "Wait2",
-      "webhookId": "5230e863-71a3-4b44-91d8-ee38624603d3"
+      "webhookId": "INSERIR_WEBHOOKID_AQUI"
     },
     {
       "parameters": {
@@ -284,15 +331,13 @@
       },
       "type": "n8n-nodes-base.supabase",
       "typeVersion": 1,
-      "position": [5152, 4416],
+      "position": [
+        5152,
+        4416
+      ],
       "id": "0f2254f4-579e-4fa7-a0be-6456cd6c71fd",
       "name": "Atualizar status followup",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -304,16 +349,14 @@
       },
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
-      "position": [5632, 5040],
+      "position": [
+        5632,
+        5040
+      ],
       "id": "798d1daf-7c3e-45c3-aa20-e650919a7f0a",
       "name": "Enviar mensagem de falha2",
       "webhookId": "adfe2eb5-9faf-4ca6-9e03-690c34cbcba0",
-      "credentials": {
-        "telegramApi": {
-          "id": "2ZSMLuLfYeWSHPkM",
-          "name": "Suporte-COR-Software"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -325,16 +368,14 @@
       },
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
-      "position": [4288, 5040],
+      "position": [
+        4288,
+        5040
+      ],
       "id": "7f2da74e-e8ce-4b44-a785-eef8f9463398",
       "name": "mensagem de falha no agrupador2",
       "webhookId": "92864bae-5338-45b7-9ad1-ac190f9178e5",
-      "credentials": {
-        "telegramApi": {
-          "id": "2ZSMLuLfYeWSHPkM",
-          "name": "Suporte-COR-Software"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -362,15 +403,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 2,
-      "position": [3952, 4560],
+      "position": [
+        3952,
+        4560
+      ],
       "id": "15ee3cab-c39f-4778-975c-aa29c3e5e8c0",
       "name": "Message a model1",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      },
+      "credentials": "INSERIR_CREDENTIALS_AQUI",
       "onError": "continueErrorOutput"
     },
     {
@@ -389,7 +428,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [4304, 4560],
+      "position": [
+        4304,
+        4560
+      ],
       "id": "f18d9b7a-0696-4d43-aea8-fdd34d88c091",
       "name": "formatador campo"
     },
@@ -400,7 +442,10 @@
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [5136, 4640],
+      "position": [
+        5136,
+        4640
+      ],
       "id": "ae1ee988-b1fe-4aba-8002-c04292acb8eb",
       "name": "ajusta mensagem"
     },
@@ -412,7 +457,10 @@
         "color": 4
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [4800, 4336],
+      "position": [
+        4800,
+        4336
+      ],
       "typeVersion": 1,
       "id": "9154ad93-626b-4c9d-94a0-dc6964ce8185",
       "name": "Sticky Note17"
@@ -425,7 +473,10 @@
         "color": 7
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [3760, 4336],
+      "position": [
+        3760,
+        4336
+      ],
       "typeVersion": 1,
       "id": "e173b26c-5cd8-4dc3-af4f-f86f9e5df369",
       "name": "Sticky Note18"
@@ -434,10 +485,13 @@
       "parameters": {},
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
-      "position": [5712, 4656],
+      "position": [
+        5712,
+        4656
+      ],
       "id": "8cfe196d-21f9-4370-9bc7-7766a496c3e3",
       "name": "Wait3",
-      "webhookId": "2df02907-5659-490b-ba33-aca7093c96fe"
+      "webhookId": "INSERIR_WEBHOOKID_AQUI"
     },
     {
       "parameters": {
@@ -447,7 +501,10 @@
         "color": 3
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [4112, 4960],
+      "position": [
+        4112,
+        4960
+      ],
       "typeVersion": 1,
       "id": "381624b5-c42d-4649-ae9a-73830badcce5",
       "name": "Sticky Note31"
@@ -460,7 +517,10 @@
         "color": 3
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [5456, 4960],
+      "position": [
+        5456,
+        4960
+      ],
       "typeVersion": 1,
       "id": "136f1a3a-c29b-4df0-8344-4187b841796a",
       "name": "Sticky Note32"
@@ -477,15 +537,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [4224, 1808],
+      "position": [
+        4224,
+        1808
+      ],
       "id": "7a56de38-3a89-4431-aeb3-e4422e38d9e6",
       "name": "OpenAI Chat Model4",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -502,15 +560,13 @@
       },
       "type": "n8n-nodes-base.supabaseTool",
       "typeVersion": 1,
-      "position": [5168, 1680],
+      "position": [
+        5168,
+        1680
+      ],
       "id": "60124df8-02f9-47b0-80b4-7b08ea0d6d5e",
       "name": "Buscar detalhe do cliente2",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -519,15 +575,13 @@
       },
       "type": "n8n-nodes-base.googleDocsTool",
       "typeVersion": 2,
-      "position": [5168, 1472],
+      "position": [
+        5168,
+        1472
+      ],
       "id": "51edfbac-81a1-4462-b17b-17c225c3a157",
       "name": "fullstack pro2",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "Zj9flOB2shtp6TIe",
-          "name": "Google Docs (miloruas)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -536,15 +590,13 @@
       },
       "type": "n8n-nodes-base.googleDocsTool",
       "typeVersion": 2,
-      "position": [5152, 1312],
+      "position": [
+        5152,
+        1312
+      ],
       "id": "a58cb912-eea4-42ca-a9b6-189faf593092",
       "name": "gestor ia2",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "Zj9flOB2shtp6TIe",
-          "name": "Google Docs (miloruas)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -556,7 +608,10 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
-      "position": [4480, 1248],
+      "position": [
+        4480,
+        1248
+      ],
       "id": "835e6c88-7ad6-456d-97fb-c524da328e4b",
       "name": "Agent Lucas followup"
     },
@@ -570,7 +625,10 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agentTool",
       "typeVersion": 2.2,
-      "position": [4608, 1488],
+      "position": [
+        4608,
+        1488
+      ],
       "id": "da50daed-fb60-47dc-afdd-a39a0924d626",
       "name": "SubAgent_SuporteHumano1"
     },
@@ -586,15 +644,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [4608, 1792],
+      "position": [
+        4608,
+        1792
+      ],
       "id": "fb04e4cd-bc30-4f83-8fcb-e37c31934ec0",
       "name": "OpenAI Chat Model5",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -620,15 +676,13 @@
       },
       "type": "n8n-nodes-base.supabaseTool",
       "typeVersion": 1,
-      "position": [4784, 1776],
+      "position": [
+        4784,
+        1776
+      ],
       "id": "17260119-1616-4c59-9894-7fdce012b735",
       "name": "supabase_update2",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -640,16 +694,14 @@
       },
       "type": "n8n-nodes-base.telegramTool",
       "typeVersion": 1.2,
-      "position": [4960, 1776],
+      "position": [
+        4960,
+        1776
+      ],
       "id": "119d6a5a-2232-42c0-97c8-059aef8cb498",
       "name": "telegram_message1",
       "webhookId": "1fc4e3b6-3d40-471f-9041-8c5552948b2e",
-      "credentials": {
-        "telegramApi": {
-          "id": "2ZSMLuLfYeWSHPkM",
-          "name": "Suporte-COR-Software"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -660,15 +712,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
-      "position": [4416, 1792],
+      "position": [
+        4416,
+        1792
+      ],
       "id": "6c05c521-9e7a-4975-8541-03dcf46e40d8",
       "name": "Postgres Chat Memory2",
-      "credentials": {
-        "postgres": {
-          "id": "v3RabrtvpCXYgmbG",
-          "name": "Postgres account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -696,7 +746,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [4224, 2432],
+      "position": [
+        4224,
+        2432
+      ],
       "id": "b019e78b-045e-4391-8475-c2454f606659",
       "name": "If1"
     },
@@ -758,7 +811,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [-560, 2464],
+      "position": [
+        -560,
+        2464
+      ],
       "id": "1114836f-3951-45d4-a0ec-7ff5507b1ae5",
       "name": "global1"
     },
@@ -799,7 +855,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [-352, 2464],
+      "position": [
+        -352,
+        2464
+      ],
       "id": "d3e490fc-48ab-4ec8-bf78-1da8066862dc",
       "name": "If2"
     },
@@ -807,7 +866,10 @@
       "parameters": {},
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
-      "position": [-16, 2208],
+      "position": [
+        -16,
+        2208
+      ],
       "id": "50a85fc3-6081-4ce0-9f7f-79b59d27f1d9",
       "name": "No Operation, do nothing2"
     },
@@ -826,16 +888,14 @@
       },
       "type": "n8n-nodes-base.supabase",
       "typeVersion": 1,
-      "position": [32, 2528],
+      "position": [
+        32,
+        2528
+      ],
       "id": "d3f001e2-e07f-4a36-91c4-4529ae1c92e4",
       "name": "Busca clientes1",
       "alwaysOutputData": true,
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -855,15 +915,13 @@
       },
       "type": "n8n-nodes-base.supabase",
       "typeVersion": 1,
-      "position": [560, 2656],
+      "position": [
+        560,
+        2656
+      ],
       "id": "cb6f181c-0f2a-446f-a285-77dd2aa74c32",
       "name": "Cadastar cliente1",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -892,7 +950,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [560, 2416],
+      "position": [
+        560,
+        2416
+      ],
       "id": "fef92572-018f-423e-b8e9-7f87938c7090",
       "name": "Verifica se esta travado1"
     },
@@ -923,7 +984,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [256, 2528],
+      "position": [
+        256,
+        2528
+      ],
       "id": "f670aed2-1c14-428f-8081-030f96812f39",
       "name": "Verifica se o cliente existe1"
     },
@@ -931,7 +995,10 @@
       "parameters": {},
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
-      "position": [928, 2208],
+      "position": [
+        928,
+        2208
+      ],
       "id": "da0b3900-1d05-41fe-89bc-4dc8b3b59a64",
       "name": "No Operation, do nothing3"
     },
@@ -961,7 +1028,7 @@
                 "combinator": "and"
               },
               "renameOutput": true,
-              "outputKey": "audio"
+              "outputKey": "INSERIR_OUTPUTKEY_AQUI"
             },
             {
               "conditions": {
@@ -986,7 +1053,7 @@
                 "combinator": "and"
               },
               "renameOutput": true,
-              "outputKey": "texto"
+              "outputKey": "INSERIR_OUTPUTKEY_AQUI"
             },
             {
               "conditions": {
@@ -1011,7 +1078,7 @@
                 "combinator": "and"
               },
               "renameOutput": true,
-              "outputKey": "image"
+              "outputKey": "INSERIR_OUTPUTKEY_AQUI"
             }
           ]
         },
@@ -1019,7 +1086,10 @@
       },
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.2,
-      "position": [1056, 2528],
+      "position": [
+        1056,
+        2528
+      ],
       "id": "03af523c-6236-45e4-80e3-57a65ee7a42b",
       "name": "tipo da mensagem1"
     },
@@ -1039,7 +1109,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [1664, 2576],
+      "position": [
+        1664,
+        2576
+      ],
       "id": "de277228-e0d7-4707-a990-055e2f3cf092",
       "name": "texto1"
     },
@@ -1059,7 +1132,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [2304, 2560],
+      "position": [
+        2304,
+        2560
+      ],
       "id": "60abd625-600b-4bf9-8eab-46ff02af741b",
       "name": "mensagem1"
     },
@@ -1072,15 +1148,13 @@
       },
       "type": "n8n-nodes-base.redis",
       "typeVersion": 1,
-      "position": [2576, 2560],
+      "position": [
+        2576,
+        2560
+      ],
       "id": "fcf4ee67-12c6-4e7d-9546-6871391563c1",
       "name": "salvar a mensagem1",
-      "credentials": {
-        "redis": {
-          "id": "44TL4eQrNObwEsXE",
-          "name": "Redis account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1088,10 +1162,13 @@
       },
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
-      "position": [2864, 2560],
+      "position": [
+        2864,
+        2560
+      ],
       "id": "9ee5cad1-70cc-404f-8cad-c589fda8fa41",
       "name": "Wait4",
-      "webhookId": "adfce76e-69f1-4090-a19e-09bbea42acb9"
+      "webhookId": "INSERIR_WEBHOOKID_AQUI"
     },
     {
       "parameters": {
@@ -1102,15 +1179,13 @@
       },
       "type": "n8n-nodes-base.redis",
       "typeVersion": 1,
-      "position": [3104, 2560],
+      "position": [
+        3104,
+        2560
+      ],
       "id": "75330fd1-5dcd-4fbd-b64a-563864293c20",
       "name": "Buscar mensagem1",
-      "credentials": {
-        "redis": {
-          "id": "44TL4eQrNObwEsXE",
-          "name": "Redis account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1138,7 +1213,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [3360, 2560],
+      "position": [
+        3360,
+        2560
+      ],
       "id": "5d1c4c2f-710f-478a-88ca-c67bd6512085",
       "name": "Verifica ultima mensagem1"
     },
@@ -1149,15 +1227,13 @@
       },
       "type": "n8n-nodes-base.redis",
       "typeVersion": 1,
-      "position": [3920, 2480],
+      "position": [
+        3920,
+        2480
+      ],
       "id": "81ca210b-defd-4403-9c05-6db6105c9db0",
       "name": "deleta do banco1",
-      "credentials": {
-        "redis": {
-          "id": "44TL4eQrNObwEsXE",
-          "name": "Redis account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1169,7 +1245,10 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
-      "position": [4608, 2368],
+      "position": [
+        4608,
+        2368
+      ],
       "id": "8777c40c-1136-4570-99e6-f0d6d4cc9d01",
       "name": "AI Agent1"
     },
@@ -1185,15 +1264,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [4336, 2608],
+      "position": [
+        4336,
+        2608
+      ],
       "id": "99ac2cff-ba57-416f-a599-6142bc202e5a",
       "name": "OpenAI Chat Model6",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1203,15 +1280,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
-      "position": [4656, 3200],
+      "position": [
+        4656,
+        3200
+      ],
       "id": "233b184d-b222-4c93-8fde-c6a58c39831e",
       "name": "Postgres Chat Memory3",
-      "credentials": {
-        "postgres": {
-          "id": "v3RabrtvpCXYgmbG",
-          "name": "Postgres account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1228,15 +1303,13 @@
       },
       "type": "n8n-nodes-base.supabaseTool",
       "typeVersion": 1,
-      "position": [4960, 2640],
+      "position": [
+        4960,
+        2640
+      ],
       "id": "a393cb9d-9b37-48f7-afe2-3aacf8ae1451",
       "name": "Buscar detalhe do cliente3",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1245,15 +1318,13 @@
       },
       "type": "n8n-nodes-base.googleDocsTool",
       "typeVersion": 2,
-      "position": [5264, 2656],
+      "position": [
+        5264,
+        2656
+      ],
       "id": "6fbf85b8-f7f8-429f-942a-538855407cd0",
       "name": "fullstack pro3",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "Zj9flOB2shtp6TIe",
-          "name": "Google Docs (miloruas)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1262,15 +1333,13 @@
       },
       "type": "n8n-nodes-base.googleDocsTool",
       "typeVersion": 2,
-      "position": [5104, 2656],
+      "position": [
+        5104,
+        2656
+      ],
       "id": "0a68d36b-3c26-472e-b30a-b29fa4cae0d2",
       "name": "gestor ia3",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "Zj9flOB2shtp6TIe",
-          "name": "Google Docs (miloruas)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1282,7 +1351,10 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agentTool",
       "typeVersion": 2.2,
-      "position": [5056, 3152],
+      "position": [
+        5056,
+        3152
+      ],
       "id": "6e853c83-de69-402c-9621-02806c2e5668",
       "name": "SubAgent_Interesse1"
     },
@@ -1298,15 +1370,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [5056, 3376],
+      "position": [
+        5056,
+        3376
+      ],
       "id": "a7686eb7-d435-40d9-980c-44cf99f21d39",
       "name": "OpenAI Chat Model7",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1336,15 +1406,13 @@
       },
       "type": "n8n-nodes-base.supabaseTool",
       "typeVersion": 1,
-      "position": [5216, 3376],
+      "position": [
+        5216,
+        3376
+      ],
       "id": "7c8117c7-e586-4c9d-90d3-78cc8df213ec",
       "name": "supabase_update3",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1356,7 +1424,10 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agentTool",
       "typeVersion": 2.2,
-      "position": [4176, 3136],
+      "position": [
+        4176,
+        3136
+      ],
       "id": "7e35805b-8699-4566-a0cd-b30e54677a02",
       "name": "SubAgent_SuporteHumano2"
     },
@@ -1372,15 +1443,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [4000, 3424],
+      "position": [
+        4000,
+        3424
+      ],
       "id": "786f82ac-f736-4e8b-9ccf-a11189f11c77",
       "name": "OpenAI Chat Model8",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1406,15 +1475,13 @@
       },
       "type": "n8n-nodes-base.supabaseTool",
       "typeVersion": 1,
-      "position": [4192, 3408],
+      "position": [
+        4192,
+        3408
+      ],
       "id": "147a9733-869a-4962-95ae-70706c6b2237",
       "name": "supabase_update4",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1426,16 +1493,14 @@
       },
       "type": "n8n-nodes-base.telegramTool",
       "typeVersion": 1.2,
-      "position": [4384, 3408],
+      "position": [
+        4384,
+        3408
+      ],
       "id": "690e7046-6341-4c9f-b042-a48d3e006e01",
       "name": "telegram_message2",
       "webhookId": "615ed2cf-272a-4cff-b58b-f49ea064ea64",
-      "credentials": {
-        "telegramApi": {
-          "id": "2ZSMLuLfYeWSHPkM",
-          "name": "Suporte-COR-Software"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1445,7 +1510,10 @@
         "color": 4
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [4144, 2224],
+      "position": [
+        4144,
+        2224
+      ],
       "typeVersion": 1,
       "id": "0df746e5-8892-479d-99a4-62628d885e88",
       "name": "Sticky Note25"
@@ -1458,7 +1526,10 @@
         "color": 6
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [4864, 2944],
+      "position": [
+        4864,
+        2944
+      ],
       "typeVersion": 1,
       "id": "8954e151-2f0a-43da-bfa4-f738606d8689",
       "name": "Sticky Note27"
@@ -1471,7 +1542,10 @@
         "color": 6
       },
       "type": "n8n-nodes-base.stickyNote",
-      "position": [3872, 2944],
+      "position": [
+        3872,
+        2944
+      ],
       "typeVersion": 1,
       "id": "9c5e5d90-34ce-4107-b513-a2c9d59d7e26",
       "name": "Sticky Note28"
@@ -1500,7 +1574,10 @@
       },
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [1392, 2192],
+      "position": [
+        1392,
+        2192
+      ],
       "id": "8b81815e-b32a-4ef3-bfbf-246a6cf86746",
       "name": "Baixar audio1"
     },
@@ -1515,7 +1592,10 @@
       },
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
-      "position": [1632, 2192],
+      "position": [
+        1632,
+        2192
+      ],
       "id": "ee919179-f10f-4f7e-9576-77733620ccf5",
       "name": "Convert to File1",
       "alwaysOutputData": true
@@ -1530,15 +1610,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
-      "position": [1856, 2192],
+      "position": [
+        1856,
+        2192
+      ],
       "id": "a765c6ce-865f-440c-aea6-47234b34aa27",
       "name": "Transcrever audio1",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1556,7 +1634,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [2096, 2192],
+      "position": [
+        2096,
+        2192
+      ],
       "id": "9b681eee-85df-45a8-a549-ddbff18ae5e8",
       "name": "texto gerado1"
     },
@@ -1571,7 +1652,10 @@
       },
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
-      "position": [1616, 2896],
+      "position": [
+        1616,
+        2896
+      ],
       "id": "50d4af10-8a58-49e8-8f6f-08a623d6cb77",
       "name": "Converter imagem para file1",
       "alwaysOutputData": true
@@ -1592,15 +1676,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
-      "position": [1824, 2896],
+      "position": [
+        1824,
+        2896
+      ],
       "id": "84200617-2c9d-43f6-b177-98095f878607",
       "name": "Analyze image1",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1618,7 +1700,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [2080, 2896],
+      "position": [
+        2080,
+        2896
+      ],
       "id": "d9118970-0283-4ddb-b1df-50f0480b117b",
       "name": "texto gerado imagem1"
     },
@@ -1634,7 +1719,10 @@
       },
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
-      "position": [1024, 4592],
+      "position": [
+        1024,
+        4592
+      ],
       "id": "d81c1516-0d8a-4fb3-b002-6201998ed64f",
       "name": "Schedule Trigger"
     },
@@ -1655,15 +1743,13 @@
       },
       "type": "n8n-nodes-base.supabase",
       "typeVersion": 1,
-      "position": [1328, 4592],
+      "position": [
+        1328,
+        4592
+      ],
       "id": "4879d965-a2da-4a42-9a5b-3cbc159e5430",
       "name": "Buscar clientes lista",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1735,7 +1821,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [1616, 4592],
+      "position": [
+        1616,
+        4592
+      ],
       "id": "6f7dcdeb-c1ca-4463-b0da-580e6ec5f101",
       "name": "Dados followup"
     },
@@ -1784,7 +1873,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [1952, 4592],
+      "position": [
+        1952,
+        4592
+      ],
       "id": "6605c471-d439-40c0-9924-fc5a6b98ecf2",
       "name": "verifica se pode seguir"
     },
@@ -1800,15 +1892,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.2,
-      "position": [2976, 4880],
+      "position": [
+        2976,
+        4880
+      ],
       "id": "2d4e863c-cdb9-4888-b3d6-611812a8f8a7",
       "name": "OpenAI Chat Model3",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1825,15 +1915,13 @@
       },
       "type": "n8n-nodes-base.supabaseTool",
       "typeVersion": 1,
-      "position": [3424, 5024],
+      "position": [
+        3424,
+        5024
+      ],
       "id": "05da6e3e-fbe7-44ac-a324-8447271c2c5a",
       "name": "Buscar detalhe do cliente1",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1842,15 +1930,13 @@
       },
       "type": "n8n-nodes-base.googleDocsTool",
       "typeVersion": 2,
-      "position": [3680, 4800],
+      "position": [
+        3680,
+        4800
+      ],
       "id": "961b9fad-02d3-46c8-86c1-ec01acfc0463",
       "name": "fullstack pro1",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "Zj9flOB2shtp6TIe",
-          "name": "Google Docs (miloruas)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1859,15 +1945,13 @@
       },
       "type": "n8n-nodes-base.googleDocsTool",
       "typeVersion": 2,
-      "position": [3568, 4912],
+      "position": [
+        3568,
+        4912
+      ],
       "id": "edfde355-043f-47ab-ab5a-c4f5971c6a23",
       "name": "gestor ia1",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "Zj9flOB2shtp6TIe",
-          "name": "Google Docs (miloruas)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1878,15 +1962,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.3,
-      "position": [3152, 5024],
+      "position": [
+        3152,
+        5024
+      ],
       "id": "fbea9ad6-b281-4e5a-96aa-db64b702a254",
       "name": "Postgres Chat Memory1",
-      "credentials": {
-        "postgres": {
-          "id": "v3RabrtvpCXYgmbG",
-          "name": "Postgres account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -1898,7 +1980,10 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
-      "position": [3248, 4608],
+      "position": [
+        3248,
+        4608
+      ],
       "id": "6b2aabf4-17ee-4fbc-9283-909780a92e66",
       "name": "Agente FollowUP"
     },
@@ -1928,7 +2013,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [1664, 4896],
+      "position": [
+        1664,
+        4896
+      ],
       "id": "3b839216-b782-4bd9-8a25-0aaaa6a3c8cb",
       "name": "verificar se ja esta paused"
     },
@@ -1938,7 +2026,10 @@
       },
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
-      "position": [1936, 5072],
+      "position": [
+        1936,
+        5072
+      ],
       "id": "bed2590c-0843-4913-9f3d-76a466f03edf",
       "name": "Loop Over Items2"
     },
@@ -1948,7 +2039,10 @@
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [2176, 5168],
+      "position": [
+        2176,
+        5168
+      ],
       "id": "2fdfa694-f3b1-4f80-8149-44149c24aded",
       "name": "Code",
       "alwaysOutputData": false
@@ -1980,7 +2074,10 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [2464, 5168],
+      "position": [
+        2464,
+        5168
+      ],
       "id": "7b8ac7d5-946c-4ddc-b6d9-dc7e3bcc496d",
       "name": "verificar se passou de 2 dias"
     },
@@ -2008,15 +2105,13 @@
       },
       "type": "n8n-nodes-base.supabase",
       "typeVersion": 1,
-      "position": [2864, 5280],
+      "position": [
+        2864,
+        5280
+      ],
       "id": "b18fc083-17e3-4680-86da-0d7198f1a291",
       "name": "Atualziar followup status",
-      "credentials": {
-        "supabaseApi": {
-          "id": "cuLPizV1tj78XzSn",
-          "name": "Supabase (Agente IA)"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -2026,7 +2121,10 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [2160, 4352],
+      "position": [
+        2160,
+        4352
+      ],
       "id": "09f2d8cc-c028-40a7-afb9-4ab271c4bfb9",
       "name": "Sticky Note35"
     },
@@ -2056,15 +2154,13 @@
       },
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 2,
-      "position": [5616, 2368],
+      "position": [
+        5616,
+        2368
+      ],
       "id": "d62a2df6-0a1e-421f-b985-6f82fa922849",
       "name": "Message a model2",
-      "credentials": {
-        "openAiApi": {
-          "id": "oPqSWZ8UON9AXTOz",
-          "name": "OpenAi account"
-        }
-      },
+      "credentials": "INSERIR_CREDENTIALS_AQUI",
       "onError": "continueErrorOutput"
     },
     {
@@ -2074,7 +2170,10 @@
       },
       "type": "n8n-nodes-base.splitOut",
       "typeVersion": 1,
-      "position": [4512, 4560],
+      "position": [
+        4512,
+        4560
+      ],
       "id": "3ccae0f2-b012-4086-a848-1d779a0c6d1a",
       "name": "Split Out2"
     },
@@ -2084,7 +2183,10 @@
       },
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
-      "position": [4848, 4544],
+      "position": [
+        4848,
+        4544
+      ],
       "id": "03ffd3e0-dd33-4488-9345-37e605ee8bb7",
       "name": "Loop Over Items3"
     },
@@ -2104,7 +2206,10 @@
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
-      "position": [3648, 2480],
+      "position": [
+        3648,
+        2480
+      ],
       "id": "71542f0b-a329-4368-ba9a-494b1783c033",
       "name": "Edit Fields2"
     },
@@ -2117,15 +2222,13 @@
       },
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
-      "position": [1376, 2896],
+      "position": [
+        1376,
+        2896
+      ],
       "id": "f8cb38e7-6eaf-47a4-ab36-42ab2577c7ad",
       "name": "Obter m dia em base1",
-      "credentials": {
-        "evolutionApi": {
-          "id": "rA5RdR6wauF1ogrU",
-          "name": "Evolution account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -2137,15 +2240,13 @@
       },
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
-      "position": [7088, 2384],
+      "position": [
+        7088,
+        2384
+      ],
       "id": "622479cb-ea34-4661-9884-bdf4c215e38a",
       "name": "Enviar texto1",
-      "credentials": {
-        "evolutionApi": {
-          "id": "rA5RdR6wauF1ogrU",
-          "name": "Evolution account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     },
     {
       "parameters": {
@@ -2157,15 +2258,13 @@
       },
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
-      "position": [5440, 4640],
+      "position": [
+        5440,
+        4640
+      ],
       "id": "a42decf4-14d5-4770-a441-8e0264fd5f2c",
       "name": "Obter m dia em base2",
-      "credentials": {
-        "evolutionApi": {
-          "id": "rA5RdR6wauF1ogrU",
-          "name": "Evolution account"
-        }
-      }
+      "credentials": "INSERIR_CREDENTIALS_AQUI"
     }
   ],
   "pinData": {
@@ -2173,37 +2272,30 @@
       {
         "json": {
           "headers": {
-            "host": "n8n.camiloruas.dev",
+            "host": "INSERIR_HOST_AQUI",
             "user-agent": "axios/1.13.2",
             "content-length": "1457",
             "accept": "application/json, text/plain, */*",
             "accept-encoding": "gzip, br",
             "cdn-loop": "cloudflare; loops=1",
-            "cf-connecting-ip": "191.7.91.55",
+            "cf-connecting-ip": "INSERIR_CF-CONNECTING-IP_AQUI",
             "cf-ipcountry": "BR",
-            "cf-ray": "9c171297a9fff199-GRU",
-            "cf-visitor": "{\"scheme\":\"https\"}",
-            "cf-warp-tag-id": "9028ee96-0a7c-43fc-876e-3ac4fef71b60",
+            "cf-ray": "INSERIR_CF-RAY_AQUI",
+            "cf-visitor": "INSERIR_CF-VISITOR_AQUI",
+            "cf-warp-tag-id": "INSERIR_CF-WARP-TAG-ID_AQUI",
             "connection": "keep-alive",
             "content-type": "application/json",
-            "x-forwarded-for": "191.7.91.55",
+            "x-forwarded-for": "INSERIR_X-FORWARDED-FOR_AQUI",
             "x-forwarded-proto": "https"
           },
           "params": {},
           "query": {},
           "body": {
             "event": "messages.upsert",
-            "instance": "COR-Software - Atendimento",
+            "instance": "INSERIR_INSTANCE_AQUI",
             "data": {
-              "key": {
-                "remoteJid": "557998448030@s.whatsapp.net",
-                "remoteJidAlt": "40952882311186@lid",
-                "fromMe": false,
-                "id": "3AE0B5A711649E090DFC",
-                "participant": "",
-                "addressingMode": "pn"
-              },
-              "pushName": "Camilo Ruas",
+              "key": "INSERIR_KEY_AQUI",
+              "pushName": "INSERIR_PUSHNAME_AQUI",
               "status": "DELIVERY_ACK",
               "message": {
                 "conversation": "Oi",
@@ -2248,54 +2340,21 @@
                     }
                   },
                   "deviceListMetadataVersion": 2,
-                  "messageSecret": {
-                    "0": 37,
-                    "1": 55,
-                    "2": 169,
-                    "3": 83,
-                    "4": 254,
-                    "5": 162,
-                    "6": 133,
-                    "7": 0,
-                    "8": 19,
-                    "9": 227,
-                    "10": 109,
-                    "11": 114,
-                    "12": 117,
-                    "13": 46,
-                    "14": 16,
-                    "15": 189,
-                    "16": 94,
-                    "17": 175,
-                    "18": 103,
-                    "19": 60,
-                    "20": 87,
-                    "21": 15,
-                    "22": 144,
-                    "23": 217,
-                    "24": 50,
-                    "25": 215,
-                    "26": 136,
-                    "27": 86,
-                    "28": 224,
-                    "29": 217,
-                    "30": 23,
-                    "31": 204
-                  }
+                  "messageSecret": "INSERIR_MESSAGESECRET_AQUI"
                 }
               },
               "messageType": "conversation",
               "messageTimestamp": 1769001244,
-              "instanceId": "c61929f0-518d-4bb8-ba60-a2a0d5d8a74b",
+              "instanceId": "INSERIR_INSTANCEID_AQUI",
               "source": "ios"
             },
             "destination": "https://n8n.camiloruas.dev/webhook-test/6a92eaa0-8cf0-41bb-b64c-f1358e9b114d",
             "date_time": "2026-01-21T10:14:05.096Z",
-            "sender": "557999140671@s.whatsapp.net",
-            "server_url": "https://evolution.camiloruas.dev",
-            "apikey": "1BE3CCBE9839-415C-9C94-617E315A1D9C"
+            "sender": "INSERIR_SENDER_AQUI",
+            "server_url": "INSERIR_SERVER_URL_AQUI",
+            "apikey": "INSERIR_APIKEY_AQUI"
           },
-          "webhookUrl": "https://n8n.camiloruas.dev/webhook-test/6a92eaa0-8cf0-41bb-b64c-f1358e9b114d",
+          "webhookUrl": "INSERIR_WEBHOOKURL_AQUI",
           "executionMode": "test"
         },
         "pairedItem": {
@@ -3269,14 +3328,14 @@
   "versionId": "aed95e6c-9348-4c0c-b092-524c5f2107c6",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "f1fba7bd9b76df6035bf670f17a157edb5e38ad02048aa7e37d9c762232db08f"
+    "instanceId": "INSERIR_META_INSTANCEID_AQUI"
   },
-  "id": "Wn8FfWkBfgt56QPm",
+  "id": "INSERIR_WORKFLOW_ID_AQUI",
   "tags": [
     {
       "updatedAt": "2026-01-07T22:45:36.420Z",
       "createdAt": "2026-01-07T22:45:36.420Z",
-      "id": "K3B0r0hjCbaEWprr",
+      "id": "INSERIR_TAG_ID_AQUI",
       "name": "curso Matheus - Wahtsap"
     }
   ]
