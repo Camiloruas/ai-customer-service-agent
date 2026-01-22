@@ -2,6 +2,11 @@
 
 > An end-to-end AI-powered conversational system built with a multi-agent architecture, designed for real-world customer service, lead qualification, follow-up automation, and human escalation.
 
+---
+<br>
+
+# English Version
+
 ## Overview
 
 Atlas AI is a production-ready conversational automation system designed to handle inbound messages, understand user intent, maintain conversational context, qualify leads, register product interest, execute follow-ups, and escalate to human support when needed.
@@ -166,6 +171,13 @@ Designed for long-running production usage.
 - Human escalation strategy
 - State-driven automation
 - Designed for WhatsApp-like environments
+
+<br>
+
+---
+<br>
+
+# Versão em Português
 
 # Atlas AI – Agente Conversacional Automatizado para Atendimento ao Cliente e Vendas
 
